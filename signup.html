@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sign Up - HireReady AI</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+min-height:100vh;
+background:linear-gradient(135deg,#020826,#071f63,#0dd3c5);
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
+}
+
+.container{
+width:100%;
+max-width:1300px;
+display:grid;
+grid-template-columns:1fr 1fr;
+border-radius:30px;
+overflow:hidden;
+box-shadow:0 20px 50px rgba(0,0,0,.4);
+}
+
+.left{
+padding:80px;
+background:linear-gradient(135deg,#020826,#0a2c83,#13e6d7);
+color:white;
+}
+
+.logo{
+font-size:60px;
+font-weight:800;
+margin-bottom:80px;
+}
+
+.logo span{
+color:#14f5e5;
+}
+
+.left h1{
+font-size:65px;
+line-height:1.1;
+margin-bottom:30px;
+}
+
+.left p{
+font-size:22px;
+line-height:1.8;
+opacity:.9;
+}
+
+.features{
+margin-top:40px;
+}
+
+.features div{
+margin-bottom:18px;
+font-size:20px;
+}
+
+.right{
+background:#030b3f;
+padding:60px;
+color:white;
+}
+
+.right h2{
+font-size:55px;
+margin-bottom:10px;
+}
+
+.right p{
+color:#9aa4c7;
+margin-bottom:35px;
+}
+
+.input-box{
+margin-bottom:18px;
+}
+
+.input-box label{
+display:block;
+margin-bottom:8px;
+font-size:16px;
+}
+
+.input-box input{
+width:100%;
+padding:18px;
+border-radius:15px;
+border:1px solid rgba(255,255,255,.1);
+background:#11173e;
+color:white;
+font-size:16px;
+}
+
+.signup-btn{
+width:100%;
+padding:18px;
+border:none;
+border-radius:15px;
+background:#14f5e5;
+color:black;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+margin-top:10px;
+}
+
+.signup-btn:hover{
+transform:translateY(-2px);
+}
+
+.login-link{
+text-align:center;
+margin-top:25px;
+}
+
+.login-link a{
+color:#14f5e5;
+text-decoration:none;
+font-weight:600;
+}
+
+@media(max-width:900px){
+
+.container{
+grid-template-columns:1fr;
+}
+
+.left{
+padding:40px 30px;
+}
+
+.right{
+padding:40px 30px;
+}
+
+.logo{
+font-size:42px;
+}
+
+.left h1{
+font-size:45px;
+}
+
+.right h2{
+font-size:40px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="left">
+
+<div class="logo">
+HireReady<span>AI</span>
+</div>
+
+<h1>Start Your Career Journey</h1>
+
+<p>
+Create ATS-friendly resumes, identify skill gaps,
+improve your profile and build professional resumes
+with AI assistance.
+</p>
+
+<div class="features">
+<div>✓ Resume Builder</div>
+<div>✓ ATS Analysis</div>
+<div>✓ Skill Gap Detection</div>
+<div>✓ PDF Export</div>
+</div>
+
+</div>
+
+<div class="right">
+
+<h2>Create Account</h2>
+
+<p>Join HireReady AI today</p>
+
+<div class="input-box">
+<label>Full Name</label>
+<input type="text">
+</div>
+
+<div class="input-box">
+<label>Email Address</label>
+<input type="email">
+</div>
+
+<div class="input-box">
+<label>Phone Number</label>
+<input type="tel">
+</div>
+
+<div class="input-box">
+<label>Password</label>
+<input type="password">
+</div>
+
+<div class="input-box">
+<label>Confirm Password</label>
+<input type="password">
+</div>
+
+<button class="signup-btn">
+Create Account
+</button>
+
+<div class="login-link">
+Already have an account?
+<a href="login.html">Login</a>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
